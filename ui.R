@@ -13,7 +13,10 @@ sidebar = dashboardSidebar(sidebarMenu(
 
 # Body Page
 body = dashboardBody(
-    
+    tags$head(
+        # Styling Well 
+        tags$style(
+            "section.content { overflow-y: hidden; }")),
     tabItems(tabItem(tabName = "intro",
                      h2("Cohort Comparison Platform"),
                      h3('This disease exploration platform explores pooled data from RCTs and RWE to allow greater understanding of the broader patient journey.
@@ -94,7 +97,7 @@ body = dashboardBody(
                             fluidRow(column(DT::dataTableOutput("data_summary"),
                                             width = 12)
                             ),
-                            tabBox(title = "aa", id = "RCT-Cohort-Characteristics", width = 12,
+                            tabBox(title = "", id = "RCT-Cohort-Characteristics", width = 12,
                                    tabPanel("RCT Cohort",
                                             h4(strong("RCT Cohort Characteristics - AMALEE: Study of 2 Ribocidib Doses in Combination With Aromatase Inhibitors in Women With HR +, HER2- Advanced Breast Cancer")),
                                             br(),
