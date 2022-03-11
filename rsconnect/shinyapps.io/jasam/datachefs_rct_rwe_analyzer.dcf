@@ -1,0 +1,18 @@
+name: datachefs_rct_rwe_analyzer
+title:
+username:
+account: jasam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5829079
+<<<<<<< HEAD
+bundleId: 5673008
+url: https://jasam.shinyapps.io/datachefs_rct_rwe_analyzer/
+when: 1647022890.61075
+lastSyncTime: 1647022890.61075
+=======
+bundleId: 5669159
+url: https://jasam.shinyapps.io/datachefs_rct_rwe_analyzer/
+when: 1646961953.65476
+lastSyncTime: 1646961953.65476
+>>>>>>> e6aeba16c37f264183e2cc4daf5bc1dd637629ab
